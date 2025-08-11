@@ -4,9 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/host" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/host (2)/shell" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/host_backup" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/remote" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/remote (2)/mfe1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/remote_backup" vcs="Git" />
   </component>
 </project>
