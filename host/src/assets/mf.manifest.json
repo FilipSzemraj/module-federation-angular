@@ -1,0 +1,9 @@
+{
+  "remote": {
+    "remoteEntry": "http://localhost:4001/remoteEntry.js",
+    "exposedModule": "./Module",
+    "displayName": "Remote",
+    "routePath": "remote",
+    "ngModuleName": "RemoteModule"
+  }
+}

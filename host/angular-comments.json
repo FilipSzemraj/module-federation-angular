@@ -1,0 +1,11 @@
+//Uwaga: W nowszych wersjach Angular CLI klucz buildTarget został przemianowany na browserTarget.
+//Jeśli używasz starszej wersji, buildTarget może być poprawny, ale dla ngx-build-plus i nowoczesnego
+//Angulara zazwyczaj używa się browserTarget.
+//
+//w serve:
+//"proxyConfig": "proxy.conf.json",
+//"headers": {
+//"Access-Control-Allow-Origin": "*",
+//"Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+//"Access-Control-Allow-Headers": "Content-Type, Authorization"
+//}
