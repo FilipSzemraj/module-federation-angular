@@ -15,6 +15,7 @@ import {Router} from '@angular/router';
 import {CustomManifest} from './utils/config';
 import {buildRoutes} from './utils/routes';
 import {getManifest} from '@angular-architects/module-federation';
+import {IonicModule} from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -23,11 +24,12 @@ import {getManifest} from '@angular-architects/module-federation';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IonicModule.forRoot()
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideAppInitializer(() => initializeRoutes())
+    //provideAppInitializer(() => initializeRoutes())
     // provideAppInitializer(() => {
     //   const router = inject(Router);
     //

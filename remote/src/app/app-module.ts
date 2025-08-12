@@ -6,15 +6,20 @@ import { App } from './app';
 import { Search } from './components/search/search';
 import { Home } from './components/home/home';
 import {SharedModule} from './shared/shared.module';
+import {IonicModule} from '@ionic/angular';
+import { HistoryPage } from './components/history-page/history-page';
+import { StartPage } from './components/start-page/start-page';
+import { ProfilePage } from './components/profile-page/profile-page';
 
 @NgModule({
   declarations: [
-    App,
+    App
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    IonicModule.forRoot()
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

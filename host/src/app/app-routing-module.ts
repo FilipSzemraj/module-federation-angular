@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { loadRemoteModule } from '@angular-architects/module-federation';
 import {Home} from './components/home/home';
+import {startsWith } from "@angular-architects/module-federation-tools";
 
 export const routes: Routes = [
   // {
   //   path: '',
   //   component: Home,
   // },
-/*  {
-    path: 'search',
+  {
+    path: 'remote',
     // loadChildren: () => import('remote/Module')
     //   .then(m => m.RemoteModule),
     loadChildren: () => loadRemoteModule({
@@ -18,7 +19,7 @@ export const routes: Routes = [
       exposedModule: './Module'
     })
       .then(m => m.RemoteModule)
-  }*/
+  }
 ];
 
 @NgModule({

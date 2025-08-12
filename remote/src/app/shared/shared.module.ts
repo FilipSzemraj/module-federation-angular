@@ -3,6 +3,7 @@ import {Search} from '../components/search/search';
 import { CommonModule } from '@angular/common';
 import {Home} from '../components/home/home';
 import {RouterLink} from "@angular/router";
+import {IonicModule} from '@ionic/angular';
 
 
 @NgModule({
@@ -10,10 +11,11 @@ import {RouterLink} from "@angular/router";
     Search,
     Home
   ],
-    imports: [
-        CommonModule,
-        RouterLink
-    ],
+  imports: [
+    CommonModule,
+    RouterLink,
+    IonicModule
+  ],
   exports:[
     Home,
     Search,

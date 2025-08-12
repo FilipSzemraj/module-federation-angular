@@ -1,2 +1,22 @@
+<!--
 <p>search works!</p>
 <button [routerLink]="['remote-home']">Otwórz coś z routingu</button>
+-->
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="history">
+      <ion-icon [src]="icons.history"></ion-icon>
+      <ion-label>Historia</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="start">
+      <ion-icon [src]="icons.motivizer"></ion-icon>
+      <ion-label>Start</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="profile">
+      <ion-icon [src]="icons.profile"></ion-icon>
+      <ion-label>Profil</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
